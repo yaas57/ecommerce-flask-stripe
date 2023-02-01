@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9-alpine
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -15,8 +15,7 @@ ENV SERVER_ADDRESS http://localhost:5085/
 COPY requirements.txt .
 
 # install python dependencies
-RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 COPY env.sample .env
 
