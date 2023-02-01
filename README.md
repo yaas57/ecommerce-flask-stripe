@@ -1,5 +1,5 @@
-# [Flask & Stripe](https://blog.appseed.us/flask-stripe-open-source-mini-ecommerce/) `Mini eCommerce`
-
+# [Flask & Stripe "Optimisé par Yaas57"](https://blog.appseed.us/flask-stripe-open-source-mini-ecommerce/) `Mini eCommerce`
+Projet scolaire
 Open-source mini `eCommerce` project that loads the products from `JSON` files saved in the `templates directory` (no database required) and uses a decent UI for page styling - Powered by **Flask**.
 
 > Roadmap & Features 
